@@ -160,3 +160,35 @@ main section {
     font-size: 30px;
     font-weight: 700;
 }
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+}
+
+.resume-item-description,
+.resume-item-institute {
+    color: #757575;
+}
+
+.resume-item-institute{
+    margin-bottom: 20px;
+    /* jehetu resume-item-title er bottom e 10px disi tai etar top e 0 diye dilam */
+    margin-top: 0px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+
+/* cv style video er moto hoy nai,nije korsi */
+.cv{
+    text-align: center;
+    margin: 40px;
+}
