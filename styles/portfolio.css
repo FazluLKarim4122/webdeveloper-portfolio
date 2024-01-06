@@ -192,3 +192,13 @@ main section {
     text-align: center;
     margin: 40px;
 }
+/* ##### Finish the resume section */
+
+/* Footer section styles */
+ 
+ footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+ }
