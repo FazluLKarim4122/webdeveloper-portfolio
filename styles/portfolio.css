@@ -97,6 +97,13 @@ nav a {
     font-size: 18px;
 }
 
+main{
+    max-width: 1140px;
+    /* etao kora jay */
+    /* justify-content: flex;  */
+    /* upore niche margin aage nisi tai 0 dilam ar auto dile content ta leftright auto niye nibe */
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -104,4 +111,13 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+
+.about-info-container{
+    display: flex;
+    /* eder majhe space thik nai space thik korte space around /between */
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
