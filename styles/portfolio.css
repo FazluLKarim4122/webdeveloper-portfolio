@@ -171,7 +171,7 @@ main section {
     color: #757575;
 }
 
-.resume-item-institute{
+.resume-item-institute {
     margin-bottom: 20px;
     /* jehetu resume-item-title er bottom e 10px disi tai etar top e 0 diye dilam */
     margin-top: 0px;
@@ -183,22 +183,54 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
 
 /* cv style video er moto hoy nai,nije korsi */
-.cv{
+.cv {
     text-align: center;
     margin: 40px;
 }
+
 /* ##### Finish the resume section */
 
 /* Footer section styles */
- 
- footer{
+
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
- }
+}
+
+/* footer er column gulo jeno majhkhane 50-50% ashe shejonno */
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+/* social-links er moddhe joto anchor ase tader moddhe (space) margin */
+
+.social-links a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="Email"],
+textarea {
+    /* flex diyeo kora jay but block akare rakhlam */
+    /* display: flex; */
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    /* form er width gulo eki width e kore deya.er meaning hosse input ar textarea er moddhe joto tuku jayga ase shob 100% hoye jao*/
+    width: 100%;
+
+}
+/* shob 100% hoye jaoar karone submit button er color plus width change hoye gese tai input type shoho alada alada kore likhe dilam ar submit button takeo buttonprimary class e add kore dilam */
